@@ -3,4 +3,14 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="melon">#fc987e</color>
+    <color name="teaGreen">#cdedd7</color>
+    <color name="tiffany">#7bccc6</color>
+    <color name="asparagus">#a2c89c</color>
+    <color name="black">#000</color>
+    <color name="white">#ffffff</color>
+    <color name="gold">#fbc962</color>
+    <color name="incaGold">#a6853f</color>
+    <color name="desaturatedBlue">#7ba5ba</color>
+    <color name="pink">#fc4482</color>
 </resources>
