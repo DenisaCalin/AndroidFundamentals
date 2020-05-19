@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSecondActivityOnClick"
+        android:text="Go to second activity" />
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSecondActivityOnClick"
+        android:text="@string/text_one" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSecondActivityOnClick"
+        android:text="@string/text_two" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSecondActivityOnClick"
+        android:text="@string/text_three" />
+
+    <Button
+        android:id="@+id/buttonChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToChatOnClick"
+        android:text="Go to chat" />
+
+    <Button
+        android:id="@+id/buttonLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToLinksOnClick"
+        android:text="Go to links" />
+
+
+</LinearLayout>
