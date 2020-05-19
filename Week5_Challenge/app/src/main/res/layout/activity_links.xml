@@ -1,61 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LinksActivity"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".LinksActivity">
 
 
     <EditText
         android:id="@+id/editTextWebsite"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/https_developer_android_com" />
 
     <Button
         android:id="@+id/openWebsiteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="linkOnClick"
-        android:text="Open website" />
+        android:text="@string/open_website" />
 
     <EditText
         android:id="@+id/editTextLocation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/bucharest" />
 
     <Button
         android:id="@+id/openLocationButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="linkOnClick"
-        android:text="Open location" />
+        android:text="@string/open_location" />
 
     <EditText
         android:id="@+id/editTextShare"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/hello_human" />
 
     <Button
         android:id="@+id/shareTextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="linkOnClick"
-        android:text="Share text" />
+        android:text="@string/share_text" />
 
     <EditText
         android:id="@+id/editTextCall"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/_0712345678" />
 
     <Button
         android:id="@+id/callButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="linkOnClick"
-        android:text="Call" />
+        android:text="@string/call" />
 
 </LinearLayout>

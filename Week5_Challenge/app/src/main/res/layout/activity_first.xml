@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="openSecondActivityOnClick"
-        android:text="Go to second activity" />
+        android:text="@string/go_to_second_activity" />
 
     <Button
         android:id="@+id/buttonOne"
@@ -39,14 +39,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="goToChatOnClick"
-        android:text="Go to chat" />
+        android:text="@string/go_to_chat" />
 
     <Button
         android:id="@+id/buttonLinks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="goToLinksOnClick"
-        android:text="Go to links" />
+        android:text="@string/go_to_links" />
 
 
 </LinearLayout>

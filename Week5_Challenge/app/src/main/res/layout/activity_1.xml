@@ -10,9 +10,9 @@
         android:id="@+id/textview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:padding="16dp"
-        android:textColor="#000"></TextView>
+        android:textColor="#000"
+        android:textStyle="bold" />
 
 
     <TextView
@@ -24,8 +24,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:background="#efefef"
-        android:padding="16dp"></TextView>
+        android:padding="16dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,9 +37,9 @@
             android:id="@+id/message1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="64dp"
+            android:layout_marginEnd="64dp"
             android:layout_weight="2"
-            android:hint="Message"></EditText>
+            android:hint="@string/message" />
 
         <Button
             android:id="@+id/buttonSend1"
@@ -48,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="sendMessage1OnClick"
-            android:text="Send"></Button>
+            android:text="@string/send" />
     </LinearLayout>
 
 

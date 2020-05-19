@@ -57,5 +57,20 @@ On am we offices expense thought. Its hence ten smile age means. Seven chief sig
 
 Breakfast agreeable incommode departure it an. By ignorant at on wondered relation. Enough at tastes really so cousin am of. Extensive therefore supported by extremity of contented. Is pursuit compact demesne invited elderly be. View him she roof tell her case has sigh. Moreover is possible he admitted sociable concerns. By in cold no less been sent hard hill. </string>
     <string name="text_default">YEY!\n You opened the second activity!</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="go_to_second_activity">Go to second activity</string>
+    <string name="go_to_chat">Go to chat</string>
+    <string name="go_to_links">Go to links</string>
+    <string name="https_developer_android_com">https://developer.android.com</string>
+    <string name="open_website">Open website</string>
+    <string name="bucharest">Bucharest</string>
+    <string name="open_location">Open location</string>
+    <string name="hello_human">Hello, human!</string>
+    <string name="share_text">Share text</string>
+    <string name="_0712345678">0712345678</string>
+    <string name="call">Call</string>
+    <string name="message_received">Message received</string>
+    <string name="reply_received">Reply received</string>
 
 </resources>

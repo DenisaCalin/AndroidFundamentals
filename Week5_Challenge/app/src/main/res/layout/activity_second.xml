@@ -12,11 +12,9 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/textViewParagraph"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textViewParagraph">
-
-        </TextView>
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>

@@ -28,17 +28,16 @@ public class Activity2 extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String message = bundle.getString(Activity1.MESSAGE1);
-            textview3.setText("Message received");
+            textview3.setText(R.string.message_received);
             textview4.setText(message);
         }
     }
 
     public void sendMessage2OnClick(View view) {
         Intent intent = new Intent(Activity2.this, Activity1.class);
-        if(message2.getText().toString().length() > 0) {
+        if (message2.getText().toString().length() > 0) {
             intent.putExtra(MESSAGE2, message2.getText().toString());
-        }
-        else {
+        } else {
             intent.putExtra(MESSAGE2, ":)");
         }
         startActivity(intent);
